@@ -1,0 +1,221 @@
+@import url('https://fonts.googleapis.com/css2?family=Lexend+Deca&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    border: border-box;
+}
+
+body{
+    font-family: 'Lexend Deca', sans-serif;
+}
+
+
+.card{
+    width: 40%;
+    height: 50vh;
+    background-color:hsl(0, 0%, 100%);
+    margin: 202px auto 34px;
+    border-radius: 2rem;
+    box-shadow: 5px 10px 8px #888888;
+    display: flex;
+}
+
+/* left */
+
+.left{
+    width: 50%;
+    height: 50vh;   
+    background-image: linear-gradient(royalblue, slateblue );
+    border-radius: 2rem;
+}
+
+.para{
+    color: rgb(196, 190, 190);
+    text-align: center;
+    font-size: 22px;
+    padding: 37px;
+}
+
+.circle{
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    margin-left: 6rem;
+    margin-top: -10px;
+    background-image: linear-gradient(hsla(256, 72%, 46%, 1),hsla(241, 72%, 46%, 0));
+}
+
+.circle h2{
+    font-size: 4.5rem;
+    color: white;
+    text-align: center;
+    padding-top: 35px;
+    
+}
+
+.circle p{
+    font-size: 1rem;
+    color: rgb(179, 174, 174);
+    text-align: center;
+}
+
+.results {
+    text-align: center ;
+    padding-top: 20px;
+}
+
+.results h3{
+    color: white;
+    font-size: 30px;
+    font-weight: 100;
+    letter-spacing: 2px;
+}
+
+.results p{
+    color: rgb(214, 211, 211);
+    margin-left: 75px;
+    margin-right: 75px;
+    padding-top: 10px ;
+    line-height: 1.5rem;
+}
+
+/* right */
+
+.right{
+    margin-left: 30px;
+    margin-top: 30px;
+}
+
+.reaction{
+    display: flex;
+    width: 18rem;
+    height: 3rem;
+    background-color: hsl(0, 100%, 94%);
+    border-radius: 0.5rem;
+    margin-top: 20px;
+}
+
+.reaction img{
+    width: 25px;
+    margin-left: 10px;
+}
+
+.reaction h4{
+    margin-left: 20px;
+    margin-top: 13px;
+    color: hsl(0, 86%, 71%) ;
+}
+
+.reaction p{
+    margin-top: 13px;
+    margin-left: 80px;
+    font-size: 16px;
+    color: rgb(10, 21, 59);
+    font-weight: 800;
+}
+
+.memory{
+    display: flex;
+    width: 18rem;
+    height: 3rem;
+    background-color: hsl(48, 100%, 93%);
+    border-radius: 0.5rem;
+    margin-top: 20px;
+}
+
+.memory img{
+    width: 25px;
+    margin-left: 10px;
+}
+.memory h4{
+    margin-left: 20px;
+    margin-top: 13px;
+    color: hsl(39, 86%, 71%) ;
+}
+
+.memory p{
+    margin-top: 13px;
+    margin-left: 84px;
+    font-size: 16px;
+    color: rgb(10, 21, 59);
+    font-weight: 800;
+}
+
+.verbal{
+    display: flex;
+    width: 18rem;
+    height: 3rem;
+    background-color: hsl(165, 100%, 94%);
+    border-radius: 0.5rem;
+    margin-top: 20px;
+}
+
+.verbal img{
+    width: 25px;
+    margin-left: 10px;
+}
+.verbal h4{
+    margin-left: 20px;
+    margin-top: 13px;
+    color: hsl(166, 90%, 54%) ;
+}
+
+.verbal p{
+    margin-top: 13px;
+    margin-left: 100px;
+    font-size: 16px;
+    color: rgb(10, 21, 59);
+    font-weight: 800;
+}
+
+.visual{
+    display: flex;
+    width: 18rem;
+    height: 3rem;
+    background-color: hsl(234, 100%, 92%);
+    border-radius: 0.5rem;
+    margin-top: 20px;
+}
+
+.visual img{
+    width: 25px;
+    margin-left: 10px;
+}
+.visual h4{
+    margin-left: 20px;
+    margin-top: 13px;
+    color: hsl(234, 85%, 45%) ;
+}
+
+.visual p{
+    margin-top: 13px;
+    margin-left: 100px;
+    font-size: 16px;
+    color: rgb(10, 21, 59);
+    font-weight: 800;
+}
+
+.btn a{
+    background-color: hsl(224, 30%, 27%)    ;
+    text-decoration: none;
+    color: white;
+    padding: 15px 109px;
+    margin-top: 50px;
+    display: block;
+    border-radius: 2rem;
+    cursor: pointer;
+}
+
+.btn a:hover{
+    background-image: linear-gradient(rgb(65, 193, 225), rgb(111, 155, 235));
+}
+
+.attribution { 
+    font-size: 18px; 
+    text-align: center;
+}
+
+.attribution a { 
+    color: hsl(228, 45%, 44%); 
+}
